@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +17,7 @@ html, body {
     align-items: center;
 min-width: 100%;
     min-height: 100%;
-    background:  #08415C;
+    background:  #ffffff;
 }
 
 .start{
@@ -28,7 +30,7 @@ text-align: center;
    top: 50%;
     width: 10%;
     border-radius: 10px;
-    background: #CC2936;
+    background: #5887FF;
     color: white;
     padding: 1rem;
 }
@@ -41,8 +43,8 @@ text-align: center;
     justify-content: center;
     max-width: 80vw;
     padding: 3rem;
-    border: solid 2px #721121;
-    background: #CC2936;
+    border: solid 2px #5887FF;
+    background: #5887FF;
     border-radius: 10px;
 }
 
@@ -57,7 +59,7 @@ text-align: center;
 
 .choice{
     margin: 0 auto;
-    background: #08415C;
+    background: #102E4A;
     color: #ffffff;
     width: 50%;
     display: flex;
@@ -95,7 +97,7 @@ text-align: center;
 }
 
 .nextBtn:hover{
-    background: red;
+    background: #252525;
     color: white;
     opacity: .6;
 
@@ -150,8 +152,8 @@ text-align: center;
 
 .red {
     width: 100%;
-    background: red;
-    border: solid 3px red;
+    background: #B00020;
+    border: solid 3px #B00020;
 }
 
 /* loader */
@@ -164,7 +166,7 @@ text-align: center;
     display: none;
     border: 16px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 16px solid #3498db;
+    border-top: 16px solid #5887FF;
     width: 120px;
     height: 120px;
     animation: spin 2s linear infinite;
@@ -190,12 +192,3 @@ text-align: center;
 
 }
 
-/* timer */
-
-.timer {
-    font-size: 2rem;
-    position: absolute;
-    left: 50%;
-    color: white;
-    font-weight: bold;
-}
