@@ -204,11 +204,33 @@ text-align: center;
 }
 
 
+
+
+
+
 @media only screen and (max-width: 600px){
 
 .question_container{
     font-size: 2rem;
 }
 
+}
+
+
+/* end css */
+
+.hidden{
+    display: none;
+}
+
+
+.congrats{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 2rem;
+    color: #5887FF;;
 }
 
